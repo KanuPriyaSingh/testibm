@@ -1,0 +1,6 @@
+FROM openjdk
+WORKDIR /
+ADD helloworld1.jar helloworld1.jar
+EXPOSE 8080
+CMD java -jar helloworld1.jar
+
